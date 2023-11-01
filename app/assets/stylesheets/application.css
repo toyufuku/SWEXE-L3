@@ -19,37 +19,24 @@ footer {
     margin: 50px;
 }
 
-.main2 {
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: ridge;
-}
 
-.list-size li {
-    list-style: none;
+.list-sizeh li {
     font-size: 24px;
     margin: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.tweetdisp {
-    width: 1000%;
-    border: solid;
-    border-color: #dddddd;
-    border-width: 0.5px;
-    margin: 100px;
-}
-
 .sidebar {
+    float: left;
     width: 100%;
     height: 300px;
     margin: 100px;
 }
 
 .header {
-    font-size: 30px;
+    display: flax;
+    font-size: 20px;
     margin: 10px;
     color: skyblue;
 }

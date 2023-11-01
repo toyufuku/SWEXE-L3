@@ -1,14 +1,13 @@
-<% if @tweet.errors.present? %>
-    <h3>エラーがあります。</h3>
-    <ul>
-        <% @tweet.errors.full_messages.each do |msg| %>
-            <li><%= msg %></li>
-        <% end %>
-    </ul>
-<% end %>
+<h1>ついーろを編集</h1>
 
-<%= form_for @tweet , url: {action: :update} do |f| %>
+
+<%= form_for @tweet, url: {action: :update} do |f| %>
     <%= f.label :message, 'メッセージ' %>
     <%= f.text_field :message %>
     <%= f.submit '更新' %>
 <% end %>
+
+<br>
+<div>
+    <%= link_to "戻る", tweets_path %>
+</div>

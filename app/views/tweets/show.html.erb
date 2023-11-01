@@ -1,5 +1,5 @@
 <p>
-<%= @tweet.message %>
-<%= ((Time.current - @tweet.tdate)/60).to_i %>分
+    <%= @tweet.message %>
+    <%= ((Time.current - @tweet.tdate)/60).to_i %>分
 </p>
-<%= link_to '戻る', :back %>
+<%= link_to '戻る',:back %>
